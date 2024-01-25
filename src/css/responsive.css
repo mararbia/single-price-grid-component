@@ -1,0 +1,26 @@
+@media screen and (max-width: 660px) {
+    body {
+        padding: 20px;
+    }
+
+    .container .main-container {
+        padding: 25px;
+    }
+
+    .container .main-container p {
+        font-size: .9rem;
+    }
+
+    .container .main-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .container .main-content .price {
+        border-radius: 0;
+    }
+
+    .container .why-us {
+        border-radius: 0 0 10px 10px;
+    }
+}
